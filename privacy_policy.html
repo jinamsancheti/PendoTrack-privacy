@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PendoTrack — Privacy Policy</title>
+    <style>
+        :root {
+            --bg: #FFFAF3;
+            --surface: #F5E8D6;
+            --text: #2B0033;
+            --text-secondary: #6A0066;
+            --accent: #FF0052;
+            --border: #D4B991;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0D0D12;
+                --surface: #18181F;
+                --text: #F5F5F5;
+                --text-secondary: #E2C4F6;
+                --accent: #FF0052;
+                --border: #2A2A38;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            color: var(--text);
+        }
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.4rem;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .highlight {
+            background-color: var(--surface);
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.6rem 0.8rem;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: var(--surface);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">PendoTrack — by Aceious &nbsp;|&nbsp; Effective Date: October 20, 2026</p>
+
+        <div class="highlight">
+            <strong>Summary:</strong> PendoTrack stores all your data locally on your device. Nothing is collected, tracked, or sent anywhere unless you explicitly choose to back up to Google Drive or export a note.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>PendoTrack ("the App") is a personal productivity tracker developed by Aceious ("we", "us", "our"). This privacy policy explains how we handle your information when you use our Android application.</p>
+        <p>We are committed to protecting your privacy. PendoTrack is designed with a <strong>privacy-first approach</strong> — your data belongs to you and stays on your device.</p>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>2a. Data Stored Locally on Your Device</h3>
+        <p>PendoTrack stores the following data <strong>locally on your device only</strong>, using on-device storage (Hive database and SharedPreferences). This data never leaves your device unless you explicitly initiate a backup or export:</p>
+        <ul>
+            <li>Tasks (title, description, status, priority, due date, sub-tasks, notes)</li>
+            <li>Task categories, statuses, and priority levels you create</li>
+            <li>Personal notes and embedded drawings</li>
+            <li>Your display name (used for the dashboard greeting)</li>
+            <li>App preferences and settings</li>
+        </ul>
+        <p><strong>We do not have access to this data.</strong> It exists only on your device.</p>
+
+        <h3>2b. Google Sign-In (Optional)</h3>
+        <p>If you choose to use the Google Drive backup feature, you will be asked to sign in with your Google account. When you do, the App receives:</p>
+        <ul>
+            <li>Your Google account display name</li>
+            <li>Your Google account email address</li>
+            <li>An authentication token to access your Google Drive</li>
+        </ul>
+        <p>This information is used <strong>solely</strong> to authenticate the backup/restore process with Google Drive. We do not store your Google credentials, and we do not transmit this information to any server controlled by us.</p>
+
+        <h3>2c. Data We Do NOT Collect</h3>
+        <ul>
+            <li>We do <strong>not</strong> collect analytics or usage data</li>
+            <li>We do <strong>not</strong> collect device identifiers</li>
+            <li>We do <strong>not</strong> collect location data</li>
+            <li>We do <strong>not</strong> use tracking cookies or pixels</li>
+            <li>We do <strong>not</strong> use any third-party analytics SDKs</li>
+            <li>We do <strong>not</strong> collect crash reports automatically</li>
+        </ul>
+
+        <h2>3. How Your Data Leaves the Device</h2>
+        <p>Your data only leaves your device in two scenarios, both of which <strong>you initiate</strong>:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Where Data Goes</th>
+                    <th>What Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Google Drive Backup</strong></td>
+                    <td>Your personal Google Drive account (app-specific folder)</td>
+                    <td>All tasks, notes, categories, statuses, priorities, and settings</td>
+                </tr>
+                <tr>
+                    <td><strong>Note Export</strong></td>
+                    <td>Android share sheet → destination of your choice</td>
+                    <td>A single note rendered as PNG or PDF</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>In both cases, <strong>you decide when and where</strong> data is sent. The App never transmits data in the background or without your explicit action.</p>
+
+        <h2>4. Google Drive Integration</h2>
+        <p>When you use the backup feature:</p>
+        <ul>
+            <li>The App requests access to <strong>your Google Drive's app-specific data folder only</strong></li>
+            <li>Backup files are stored in your own Google Drive, under a folder managed by PendoTrack</li>
+            <li>Only you have access to these files — we cannot see or access your Google Drive</li>
+            <li>You can delete the backup files at any time from your Google Drive</li>
+            <li>You can revoke the App's access to your Google Drive at any time via your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a></li>
+        </ul>
+
+        <h2>5. Permissions</h2>
+        <p>PendoTrack requests the following Android permissions:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>POST_NOTIFICATIONS</td>
+                    <td>To show task reminders and scheduled notifications</td>
+                </tr>
+                <tr>
+                    <td>SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM</td>
+                    <td>To schedule task reminders at exact times</td>
+                </tr>
+                <tr>
+                    <td>RECEIVE_BOOT_COMPLETED</td>
+                    <td>To restore scheduled reminders after device restart</td>
+                </tr>
+                <tr>
+                    <td>INTERNET</td>
+                    <td>Required for Google Sign-In and Google Drive backup (optional features)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>6. Third-Party Services</h2>
+        <p>PendoTrack integrates with the following third-party services, <strong>only when you choose to use them</strong>:</p>
+        <ul>
+            <li><strong>Google Sign-In</strong> — for authentication when using Drive backup. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+            <li><strong>Google Drive API</strong> — for backup and restore. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+        </ul>
+        <p>We do not use any advertising SDKs, analytics platforms, or crash reporting tools.</p>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <ul>
+            <li><strong>Local data:</strong> Remains on your device until you delete it within the App, clear the App's data, or uninstall the App.</li>
+            <li><strong>Google Drive backups:</strong> Remain in your Google Drive until you delete them manually or revoke the App's access.</li>
+            <li><strong>Exported notes:</strong> PNG/PDF files are placed in the App's cache directory and are cleared on the next App launch. Copies you share via the share sheet are under your control.</li>
+        </ul>
+        <p>To delete all data:</p>
+        <ul>
+            <li>Uninstall the App (removes all local data), or</li>
+            <li>Go to Android Settings → Apps → PendoTrack → Clear Data</li>
+            <li>Delete any Google Drive backups from your Drive</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>PendoTrack is <strong>not directed at children under the age of 13</strong>. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will take steps to delete such information.</p>
+
+        <h2>9. Data Security</h2>
+        <p>All data stored locally on your device is protected by your device's own security mechanisms (lock screen, encryption). All communication with Google services (Sign-In and Drive API) uses industry-standard HTTPS/TLS encryption.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have any questions or concerns about this privacy policy or PendoTrack's data practices, please contact us:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:helloaceious@gmail.com">helloaceious@gmail.com</a></li>
+            <li><strong>Developer:</strong> Aceious</li>
+        </ul>
+
+        <div class="footer">
+            <p>© 2026 Aceious. All rights reserved.</p>
+            <p>Last updated: October 20, 2026</p>
+        </div>
+    </div>
+</body>
+</html>
